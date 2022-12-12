@@ -16,6 +16,6 @@ int main(void)
 		putchar(',');
 		putchar(32);
 	}
-	purchae('\n');
+	purchar('\n');
 	return (0);
 }
