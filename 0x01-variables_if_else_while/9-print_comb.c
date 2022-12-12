@@ -2,13 +2,14 @@
 /*
  * main -Entry point
  *
- * Return: Always 0 9success)
+ * Return: Always 0 (success)
+ * Description: 'Prints possible combination'
  */
 int main(void)
 {
 	int x = 48;
 
-	for(; x <= 57; x++)
+	for (; x <= 57; x++)
 	{
 		putchar(x);
 		if (x == 57)
@@ -16,6 +17,6 @@ int main(void)
 		putchar(',');
 		putchar(32);
 	}
-	putchar('\n');
+	puitchar('\n');
 	return (0);
 }
