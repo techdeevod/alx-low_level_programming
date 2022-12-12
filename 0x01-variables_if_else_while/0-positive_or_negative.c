@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdlib.h>
 
-/* betty style doc for function main goes there */
+/**
+ * This program prints positive if the input value is greater than zero
+ * prints negative if the value is lesser than zero
+ * prints zero if equal to zero
+ */
 
 int main(void)
 {
@@ -12,9 +16,9 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("is positive\n");
-	if (n == 0)
+	else if (n == 0)
 		printf("is zero\n");
-	if (n < 0)
+	else (n < 0)
 		printf("is negative\n");
 	return (0);
 }
