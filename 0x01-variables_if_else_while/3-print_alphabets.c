@@ -3,7 +3,7 @@
 /*
  * main - Entry point
  *
- *Main is to print lower and upper case alphabets
+ * Description: Main is to print lower and upper case alphabets
  * Return: Always 0 (success)
  */
 int main(void)
