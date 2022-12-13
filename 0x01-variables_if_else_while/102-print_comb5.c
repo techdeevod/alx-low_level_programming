@@ -11,7 +11,7 @@ int main(void)
 	int x;
 	int y;
 
-	for (x = 0; x != 100; X++)
+	for (x = 0; x != 100; x++)
 		for (y = 0; y != 100; y++)
 			if (y > x)
 			{
