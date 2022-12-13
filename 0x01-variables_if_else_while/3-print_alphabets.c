@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
  *
  * Description: Main is to print lower and upper case alphabets
