@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - prints all possible combinations of two digit numbers
  * the numbers should range from 0 to 99
  * all numbers should be printed with two digits. 1 should be printed as 01
