@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * Main - Entry point
  * Code that prints _putchar followed by a new line
