@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Main - print _putchar
+ * Main - Print _putchar
  *
  * Return: Always 0 (success)
  */
@@ -16,5 +16,5 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 
-	Return (0);
+	return (0);
 }
