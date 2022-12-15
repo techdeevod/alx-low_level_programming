@@ -6,9 +6,9 @@
  *
  * Return: 1 if +ve, -1 if -ve otherwise 0.
  */
-int print_sign(int x)
+int print_sign(int n)
 {
-	if (x > 0)
+	if (n > 0)
 	{
 		_putchar(43);
 		return (1);
