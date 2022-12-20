@@ -1,11 +1,12 @@
 #include <stdio.h>
 
+void _puts(char *);
 /**
  * main - check the code for Holberton school students.
  *
  * Return: Always 0.
  */
-int amin(void)
+int main(void)
 {
 	char *str;
 
