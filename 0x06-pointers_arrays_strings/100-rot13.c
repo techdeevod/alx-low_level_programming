@@ -2,9 +2,9 @@
 
 /**
  * rot13 - encode using rot13.
- * @s: input value
+ * @a: input value
  *
- * Return: s
+ * Return: a
  */
 
 char *rot13(char *a)
@@ -22,5 +22,5 @@ char *rot13(char *a)
 				a[i] = n[j];
 				break;
 			}
-	return (s);
+	return (a);
 }
