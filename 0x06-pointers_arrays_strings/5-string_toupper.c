@@ -1,18 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code 
+ * string_toupper - changes all lowercase of a string to uppercase
+ * @s: input value
  *
- * Return: Always 0
+ * Return: char *
  */
-int main(void)
+char *string_toupper(char *s)
 {
-	char str[] = "My school!\n";
-	char *ptr;
+	int i, j;
 
-	ptr = string_toupper(str);
-	printf("%s", ptr);
-	printf("%s", str);
-	return (0);
+	for (i = 0; s[i] != '\0'; i++)
+		;
+
+	for (j = 0; j < i; j++)
+		if (s[j] >= 97 && s[j] <= 122)
+			s[j] -= 32;
+	return (s);
 }
