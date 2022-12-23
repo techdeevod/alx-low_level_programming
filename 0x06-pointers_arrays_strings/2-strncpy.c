@@ -1,11 +1,12 @@
 #include "main.h"
+
 /**
  * _strncpy - copy a string
  * @dest: destination string
  * @src: source value
  * @n: input value
  *
- * Return: dest
+ * Return: dest.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -15,13 +16,12 @@ char *_strncpy(char *dest, char *src, int n)
 
 	while (i < n && src[i] != '\0')
 	{
-		des[i] = src[i];
+		dest[i] = src[i];
 		i++;
 	}
 	
 	for (; i < n; i++)
-		dest[i] = '\0'
-	}
+		dest[i] = '\0';
 
 	return (dest);
 }
