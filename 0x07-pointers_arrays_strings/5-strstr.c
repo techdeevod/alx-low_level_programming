@@ -10,7 +10,6 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-
 	char *hay = haystack;
 	char *need = needle;
 
@@ -28,7 +27,7 @@ char *_strstr(char *haystack, char *needle)
 			else
 				break;
 		}
-		if (*nay == '\0')
+		if (*need == '\0')
 			return (haystack);
 		haystack++;
 	}
