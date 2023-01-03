@@ -22,10 +22,10 @@ char *_strstr(char *haystack, char *needle)
 		while (*haystack && *pattern && *haystack == *pattern)
 		{
 			haystack++;
-			pattern++;
+			need++;
 		}
 
-		if (!*pattern)
+		if (!*need)
 			return (hay);
 
 		haystack = hay + 1;
