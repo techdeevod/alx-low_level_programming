@@ -12,12 +12,19 @@
 void print_diagsums(int *a, int size)
 {
 	int i;
-	unsigned int s = 0, sl = 0;
+       	int s = 0, sl = 0;
+	int mul = size * size;
 
-	for (i = 0; i < size; i++)
+
+	for (i = 0; i < mul; i += size +1)
 	{
-		s += a[(size * i) + i];
-		s1 += a[(size * (i + 1)) - (i + 1)];
+		s = += a[i];
 	}
+
+	for (i = size - 1; i < mul - 1; i += size - 1)
+	{
+		s1 += a[i];
+	}
+
 	printf("%d, %d\n", s, s1);
 }
