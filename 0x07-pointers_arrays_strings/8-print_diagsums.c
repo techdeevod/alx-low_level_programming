@@ -12,7 +12,8 @@
 void print_diagsums(int *a, int size)
 {
 	int i;
-       	int s = 0, sl = 0;
+       	int s = 0;
+	int s1 = 0;
 	int mul = size * size;
 
 
