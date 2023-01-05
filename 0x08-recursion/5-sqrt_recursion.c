@@ -18,7 +18,8 @@ int _sqrt(int n, int m)
 	return (_sqrt(n, m + 1));
 }
 
-/**_sqrt_recursion - Returns the natural square root of a number
+/**
+ * _sqrt_recursion - Returns the natural square root of a number
  * @n: calculate the natural square root of n
  *
  * Return: natural square root
