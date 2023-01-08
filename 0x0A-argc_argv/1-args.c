@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- * 1-args.c - prints the number of arguments
- * @argc: type int
+ * main - main
+ * @argc: int type
  * @argv: type char
- *
  * Return: print file number
  */
 
@@ -13,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	(void) argv;
 
-	printf("%d\n", argc);
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
