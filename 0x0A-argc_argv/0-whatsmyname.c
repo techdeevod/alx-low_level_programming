@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * prints file name followed by newline
+ * 0-whatsmyname - prints file name followed by newline
  * @argc: count of integer
  * @argv: type char
  *
