@@ -9,7 +9,7 @@
  * @x: first number
  * @y: second number
  * Return: value and 1 if error
- */
+ **/
 
 int main(int argc, char *argv[])
 {
