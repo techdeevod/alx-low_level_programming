@@ -4,28 +4,28 @@
 
 /**
  * str_concat - Concatenates two strings of any size
- * @x: the first string to concatenate
- * @y: the second string to concatenate
+ * @s1: the first string to concatenate
+ * @s2: the second string to concatenate
  *
  * Return: the two strings concatenated
  */
 
-char *str_concat(char *x, char *y)
+char *str_concat(char *s1, char *s2)
 {
 	int i = 0, j = 0, k = 0, l = 0;
 	
 	char *s;
 
-	if (x == NULL)
-		x = " ";
+	if (s1 == NULL)
+		s1 = " ";
 
-	if (y == NULL)
-		y = " ";
+	if (s2 == NULL)
+		s2 = " ";
 
-	while (x[i])
+	while (s1[i])
 		i++;
 
-	while (y[j])
+	while (s2[j])
 		j++;
 
 	l = i + j;
@@ -39,11 +39,11 @@ char *str_concat(char *x, char *y)
 	while (k < l)
 	{
 		if ( k >= i)
-			s[k] = x[k];
+			s[k] = s1[k];
 
 		if ( k >= i)
 		{
-			s[k] = y[j];
+			s[k] = s2[j];
 			j++;
 		}
 
