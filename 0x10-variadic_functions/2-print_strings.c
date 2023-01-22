@@ -4,6 +4,8 @@
  * print_strings - prints strings
  * @separator: separator between strings
  * @n: number of arguments
+ *
+ * Return: list of strings
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
@@ -29,9 +31,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 			i++;
 		}
-		
+
 		va_end(args);
 	}
-	
+
 	printf("\n");
 }
